@@ -31,8 +31,13 @@ $ npm run build
 configure `.env` file and do migration.
 
 ```shell
+# create .env
+cp .env.example .env
+$ php artisan key:generate
 # laravel migrate
 $ php artisan migrate
+# run
+$ php artisan serve
 ```
 
 ## How does it look?

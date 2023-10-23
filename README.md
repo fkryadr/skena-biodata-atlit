@@ -15,14 +15,7 @@ we love Stisla Admin Template and Laravel 9 let's make them love each other.
 
 Include simple Data Table with Livewire (CRUD).
 
-## How to use?
-
-Run the command below to start a new project
-```shell
-composer create-project afrizalmy/laravel9-stisla-livewire:dev-master <project_name>
-```
-Change *project_name* as desired.
-Next step is install all dependency required by laravel and laravel-mix.
+## How to run?
 
 ```shell
 # project directory

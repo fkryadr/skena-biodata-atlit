@@ -1,21 +1,26 @@
-# Laravel 9 + Stisla + Jetstream + Livewire
+# Laravel 10 + Stisla + Jetstream + Livewire
 
-we love Stisla Admin Template and Laravel 9 let's make them love each other.
+we love Stisla Admin Template and Laravel 10 let's make them love each other.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/zalabs02/laravel-9-stisla-jetstream/issues)
 
-> **Looking for laravel 10?** 
-    Check it out [this](https://packagist.org/packages/afrizalmy/laravel10-stisla-livewire)
 ## What inside?
 
--   Laravel ^9.x - [laravel.com/docs/9.x](https://laravel.com/docs/9.x)
--   Laravel Jetstream ^2.6 - [jetstream.laravel.com](https://jetstream.laravel.com/)
--   Livewire ^2.5 - [laravel-livewire.com](https://laravel-livewire.com)
+-   Laravel ^10.x - [laravel.com/docs/10.x](https://laravel.com/docs/10.x)
+-   Laravel Jetstream ^3.1 - [jetstream.laravel.com](https://jetstream.laravel.com/)
+-   Livewire ^2.12 - [laravel-livewire.com](https://laravel-livewire.com)
 -   Stisla Admin Template ^2.3.0 - [getstisla.com](https://getstisla.com/)
 
 Include simple Data Table with Livewire (CRUD).
 
-## How to run?
+## How to use?
+
+Run the command below to start a new project
+```shell
+composer create-project afrizalmy/laravel10-stisla-livewire:dev-master <project_name>
+```
+Change *project_name* as desired.
+Next step is install all dependency required by laravel. vite, and tailwind.
 
 ```shell
 # project directory
@@ -31,13 +36,8 @@ $ npm run build
 configure `.env` file and do migration.
 
 ```shell
-# create .env
-cp .env.example .env
-$ php artisan key:generate
 # laravel migrate
 $ php artisan migrate
-# run
-$ php artisan serve
 ```
 
 ## How does it look?

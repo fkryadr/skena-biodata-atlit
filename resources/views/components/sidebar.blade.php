@@ -11,11 +11,22 @@ $links = [
                 "section_text" => "User",
                 "section_list" => [
                     ["href" => "user", "text" => "Data User"],
-                    ["href" => "user.new", "text" => "Buat User"]
                 ]
             ]
         ],
         "text" => "User",
+        "is_multi" => true,
+    ],
+    [
+        "href" => [
+            [
+                "section_text" => "Atlet",
+                "section_list" => [
+                    ["href" => "user", "text" => "Data Atlet"],
+                ]
+            ]
+        ],
+        "text" => "Atlet",
         "is_multi" => true,
     ],
 ];
